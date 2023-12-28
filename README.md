@@ -1,3 +1,5 @@
+I have implemented the website using Replit IDE. The backend files are pushed to a different repository - https://github.com/Vennela-Vasireddy/Movie_Review_Back_End
+
 Movie Review Website
 
 Summary:
