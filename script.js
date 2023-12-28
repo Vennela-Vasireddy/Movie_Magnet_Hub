@@ -63,7 +63,7 @@ function returnMovies(url) {
 }
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+  e.preventDefault(); // prevents from refershing everytime
   main.innerHTML = '';
 
   const searchItem = search.value;
