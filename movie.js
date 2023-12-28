@@ -40,10 +40,10 @@ function returnReviews(url) {
   fetch(url + "movie/" + movieId).then(res => res.json())
     .then(function(data) {
       console.log(data);
-      
+
       const div_row = document.createElement('div');
       div_row.setAttribute('class', 'row');
-      
+
       data.forEach(review => {
         const div_card = document.createElement('div');
         div_card.setAttribute('class', 'col-sm-6 col-md-4 col-lg-3');
@@ -59,7 +59,7 @@ function returnReviews(url) {
           <br>
         `
         div_row.appendChild(div_card);
-        
+
       });
       main.appendChild(div_row);
     });
