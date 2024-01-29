@@ -1,4 +1,4 @@
-I have implemented the website using Replit IDE. The backend files are pushed to a different repository - https://github.com/Vennela-Vasireddy/Movie_Review_Back_End
+I have implemented the website using Replit IDE. The backend files are pushed to a different repository - https://github.com/Vennela-Vasireddy/Movie_Magnet_Hub_Back_End
 
 Movie Review Website
 
