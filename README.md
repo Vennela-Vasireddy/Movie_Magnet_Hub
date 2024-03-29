@@ -40,9 +40,7 @@ Used JavaScript's fetch function to send requests to these endpoints and retriev
 In the TMDB API:
 There are 2 endpoints 
 1. apiLink endpoint:
-It's a specific URL: https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=...
-When you use this endpoint (make a request to it), you'll receive a list of popular movies.
+It's a specific URL - When you use this endpoint (make a request to it), you'll receive a list of popular movies.
 2. searchApi endpoint:
-It's a URL with a placeholder: https://api.themoviedb.org/3/search/movie?&api_key=...&query=
-When you make a request with a filled-in query, you'll receive search results matching that title.
+It's a URL with a placeholder - When you make a request with a filled-in query, you'll receive search results matching that title.
 There's no strict maximum number of API endpoints in a project
